@@ -16,10 +16,7 @@ func main() {
 	introduction := canvas.NewText("Hello Fyne!", nil)
 	introduction.TextSize = 24
 	introduction.Alignment = fyne.TextAlignCenter
-	// introduction
-	// introduction.
-	// introduction.Alignment = fyne.TextAlignCenter
-	// introduction.TextStyle
+
 	w.SetContent(container.NewVBox(
 		introduction,
 		widget.NewButton("Hi!", func() {
